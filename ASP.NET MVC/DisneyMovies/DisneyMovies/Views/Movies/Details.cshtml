@@ -1,0 +1,30 @@
+﻿@model DisneyMovies.Models.MovieDB
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>Movies...</h1>
+
+<fieldset>
+    <legend>MovieDB</legend>
+
+    <div class="display-label">Title</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">Director</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Director)
+    </div>
+
+    <div class="display-label">Year Released</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ReleaseYear)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

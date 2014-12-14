@@ -1,0 +1,74 @@
+﻿body
+{
+font: Georgia, serif;
+background-color: #FAE502;
+color: #000000;
+}
+h1
+{
+border-bottom: 3px solid #000000;
+font: Georgia, serif;
+color: #FA021B;
+}
+#main
+{
+padding: 20px;
+background-color: #ffffff;
+border-radius: 0 4px 4px 4px;
+}
+a
+{
+color: #FA021B;
+}
+/* Menu Styles ------------------------------*/
+ul#menu
+{
+padding: 0px;
+position: relative;
+margin: 0;
+}
+ul#menu li
+{
+display: inline;
+}
+ul#menu li a
+{
+background-color: #ffffff;
+padding: 10px 20px;
+line-height: 2.8em;
+
+border-radius: 4px 4px 0 0;
+}
+ul#menu li a:hover
+{
+background-color: #ffffff;
+}
+
+fieldset
+{
+padding-left: 12px;
+}
+fieldset label
+{
+display: block;
+padding: 4px;
+}
+
+table.data
+{
+background-color:#ffffff;
+border:2px solid #c3c3c3;
+width:80%;
+}
+table.data th
+{
+background-color:#e8eef4;
+border:1px solid #c3c3c3;
+padding:5px;
+text-align:left;
+}
+table.data td
+{
+border:1px solid #c3c3c3;
+padding:7px;
+} 
